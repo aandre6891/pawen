@@ -251,3 +251,11 @@ function ngo_charity_connection_switch_theme() {
     set_theme_mod( 'ngo_charity_connection_copy_settings', true );
     
 }
+
+function remove_website_field($fields) {
+    if (isset($fields['url'])) {
+        unset($fields['url']);
+    }
+    return $fields;
+}
+add_filter('comment_form_default_fields', 'remove_website_field');
