@@ -1,0 +1,33 @@
+07-11-2023 08:37:25 - INFO  - 8.0.2 - 14.6 MB/256 MB - admin > Start upgrade from 0.0.0
+07-11-2023 08:37:25 - INFO  - 8.0.2 - 14.6 MB/256 MB - admin > Array
+(
+    [`pawenwp_newsletter_emails`] => Created table `pawenwp_newsletter_emails`
+)
+
+07-11-2023 08:37:25 - INFO  - 8.0.2 - 14.6 MB/256 MB - admin > Array
+(
+    [`pawenwp_newsletter_sent`] => Created table `pawenwp_newsletter_sent`
+)
+
+07-11-2023 08:37:25 - INFO  - 8.0.2 - 14.6 MB/256 MB - admin > Array
+(
+    [`pawenwp_newsletter`] => Created table `pawenwp_newsletter`
+)
+
+07-11-2023 08:37:25 - INFO  - 8.0.2 - 14.6 MB/256 MB - admin > Array
+(
+    [`pawenwp_newsletter_user_logs`] => Created table `pawenwp_newsletter_user_logs`
+)
+
+07-11-2023 08:37:25 - INFO  - 8.0.2 - 14.6 MB/256 MB - admin > Array
+(
+    [`pawenwp_newsletter_user_meta`] => Created table `pawenwp_newsletter_user_meta`
+)
+
+07-11-2023 08:37:25 - INFO  - 8.0.2 - 14.6 MB/256 MB - admin > Array
+(
+    [`pawenwp_newsletter_stats`] => Created table `pawenwp_newsletter_stats`
+)
+
+07-11-2023 08:37:25 - INFO  - 8.0.2 - 14.6 MB/256 MB - admin > Backing up options of 0.0.0
+07-11-2023 08:37:25 - INFO  - 8.0.2 - 14.6 MB/256 MB - admin > End
