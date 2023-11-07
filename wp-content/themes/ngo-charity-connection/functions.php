@@ -259,3 +259,13 @@ function remove_website_field($fields) {
     return $fields;
 }
 add_filter('comment_form_default_fields', 'remove_website_field');
+
+function customize_comment_consent_text($fields) {
+    $fields['cookies'] = '<p class="comment-form-cookies-consent">
+    <input type="checkbox" id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" value="yes"' . 
+    ( isset( $_COOKIE['wp-comment-cookies-consent'] ) ? ' checked' : '' ) . ' />
+    <label for="wp-comment-cookies-consent">Save my name and email in this browser for the next time I comment.</label></p>';
+    return $fields;
+}
+add_filter('comment_form_default_fields', 'customize_comment_consent_text');
+
